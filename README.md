@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This project was written entirely by Gemini with some guiding prompts and feedback. Use at your own risk.
+
 # kwin-scroll-daemon
 
 Dynamic, hover-aware per-application touchpad scroll multiplier daemon for **KDE Plasma 6 (Wayland)**.
