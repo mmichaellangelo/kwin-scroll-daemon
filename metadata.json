@@ -1,0 +1,15 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Authors": [{ "Name": "Community" }],
+        "Description": "Tracks active/hovered window class for scroll speed adjustments",
+        "Icon": "preferences-system-windows-script-test",
+        "Id": "scroll-window-tracker",
+        "License": "GPLv3",
+        "Name": "Scroll Window Tracker",
+        "Version": "1.0"
+    },
+    "X-KDE-PluginKeyword": "scroll-window-tracker",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}

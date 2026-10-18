@@ -1,0 +1,12 @@
+[Unit]
+Description=KDE Plasma Touchpad Per-Application Scroll Speed Daemon
+After=plasma-core.target graphical-session.target
+
+[Service]
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/kwin_scroll_daemon.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

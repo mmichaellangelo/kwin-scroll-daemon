@@ -1,0 +1,12 @@
+{
+  "default_factor": 1.0,
+  "rules": [
+    { "match": "brave|brave-browser|com\\.brave\\.Browser", "factor": 0.35 },
+    { "match": "google-chrome|chromium", "factor": 0.35 },
+    { "match": "firefox|org\\.mozilla\\.firefox", "factor": 0.40 },
+    { "match": "code", "factor": 0.40 },
+    { "match": "slack|discord", "factor": 0.50 },
+    { "match": "org\\.kde\\.okular", "factor": 1.40 },
+    { "match": "kitty|alacritty|konsole", "factor": 0.85 }
+  ]
+}
